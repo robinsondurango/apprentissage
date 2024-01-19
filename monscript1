@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "entrer le nom de votre fichier \n"
+#declare -i variable
+read var
+echo "nous allons vous créer votre fichier\n"
+touch $var
+echo "$var est votre fichier merci de nous faire confiance" 
